@@ -1,0 +1,9 @@
+C:\Users\Fer\Desktop\TDC\SISFRA\Persistencia\bin\Debug\Persistencia.dll.config
+C:\Users\Fer\Desktop\TDC\SISFRA\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\Fer\Desktop\TDC\SISFRA\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\Fer\Desktop\TDC\SISFRA\Persistencia\bin\Debug\Persistencia.xml
+C:\Users\Fer\Desktop\TDC\SISFRA\Persistencia\obj\Debug\Persistencia.Resources.resources
+C:\Users\Fer\Desktop\TDC\SISFRA\Persistencia\obj\Debug\Persistencia.vbproj.GenerateResource.Cache
+C:\Users\Fer\Desktop\TDC\SISFRA\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\Fer\Desktop\TDC\SISFRA\Persistencia\obj\Debug\Persistencia.xml
+C:\Users\Fer\Desktop\TDC\SISFRA\Persistencia\obj\Debug\Persistencia.pdb

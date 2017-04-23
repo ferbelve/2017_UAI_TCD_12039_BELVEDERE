@@ -1,0 +1,8 @@
+C:\Users\Fer\Desktop\TDC\SISFRA\Negocio\bin\Debug\Negocio.dll
+C:\Users\Fer\Desktop\TDC\SISFRA\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Fer\Desktop\TDC\SISFRA\Negocio\bin\Debug\Negocio.xml
+C:\Users\Fer\Desktop\TDC\SISFRA\Negocio\obj\Debug\Negocio.Resources.resources
+C:\Users\Fer\Desktop\TDC\SISFRA\Negocio\obj\Debug\Negocio.vbproj.GenerateResource.Cache
+C:\Users\Fer\Desktop\TDC\SISFRA\Negocio\obj\Debug\Negocio.dll
+C:\Users\Fer\Desktop\TDC\SISFRA\Negocio\obj\Debug\Negocio.xml
+C:\Users\Fer\Desktop\TDC\SISFRA\Negocio\obj\Debug\Negocio.pdb
