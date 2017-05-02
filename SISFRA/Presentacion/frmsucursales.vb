@@ -5,13 +5,13 @@ Imports Negocio
 
 Public Class frmsucursales
     Private dt As New DataTable
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub frmsucursales_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         mostrar()
     End Sub
 
     Private Sub mostrar()
         Try
-            Dim func As New Sucursales
+            Dim func As New PSucursales
             dt = func.mostrar
 
             If dt.Rows.Count <> 0 Then

@@ -6,3 +6,27 @@ C:\Users\Fer\Desktop\TDC\SISFRA\Negocio\obj\Debug\Negocio.vbproj.GenerateResourc
 C:\Users\Fer\Desktop\TDC\SISFRA\Negocio\obj\Debug\Negocio.dll
 C:\Users\Fer\Desktop\TDC\SISFRA\Negocio\obj\Debug\Negocio.xml
 C:\Users\Fer\Desktop\TDC\SISFRA\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Negocio\bin\Debug\Negocio.dll
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Negocio\bin\Debug\Negocio.xml
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Negocio\obj\Debug\Negocio.Resources.resources
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Negocio\obj\Debug\Negocio.vbproj.GenerateResource.Cache
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Negocio\obj\Debug\Negocio.dll
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Negocio\obj\Debug\Negocio.xml
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Negocio\obj\Debug\Negocio.vbprojResolveAssemblyReference.cache
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Negocio\bin\Debug\Persistencia.dll
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Negocio\bin\Debug\Persistencia.pdb
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Negocio\bin\Debug\Persistencia.xml
+C:\Users\Fer\Desktop\TDC\SISFRA1\Negocio\bin\Debug\Negocio.dll
+C:\Users\Fer\Desktop\TDC\SISFRA1\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Fer\Desktop\TDC\SISFRA1\Negocio\bin\Debug\Negocio.xml
+C:\Users\Fer\Desktop\TDC\SISFRA1\Negocio\bin\Debug\Persistencia.dll
+C:\Users\Fer\Desktop\TDC\SISFRA1\Negocio\bin\Debug\Persistencia.pdb
+C:\Users\Fer\Desktop\TDC\SISFRA1\Negocio\bin\Debug\Persistencia.xml
+C:\Users\Fer\Desktop\TDC\SISFRA1\Negocio\obj\Debug\Negocio.vbprojResolveAssemblyReference.cache
+C:\Users\Fer\Desktop\TDC\SISFRA1\Negocio\obj\Debug\Negocio.Resources.resources
+C:\Users\Fer\Desktop\TDC\SISFRA1\Negocio\obj\Debug\Negocio.vbproj.GenerateResource.Cache
+C:\Users\Fer\Desktop\TDC\SISFRA1\Negocio\obj\Debug\Negocio.dll
+C:\Users\Fer\Desktop\TDC\SISFRA1\Negocio\obj\Debug\Negocio.xml
+C:\Users\Fer\Desktop\TDC\SISFRA1\Negocio\obj\Debug\Negocio.pdb

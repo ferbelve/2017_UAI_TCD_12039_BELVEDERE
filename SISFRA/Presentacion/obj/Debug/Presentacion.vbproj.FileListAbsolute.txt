@@ -16,3 +16,39 @@ C:\Users\Fer\Desktop\TDC\SISFRA\Presentacion\bin\Debug\Persistencia.pdb
 C:\Users\Fer\Desktop\TDC\SISFRA\Presentacion\bin\Debug\Persistencia.xml
 C:\Users\Fer\Desktop\TDC\SISFRA\Presentacion\obj\Debug\Presentacion.vbprojResolveAssemblyReference.cache
 C:\Users\Fer\Desktop\TDC\SISFRA\Presentacion\obj\Debug\Presentacion.frmsucursales.resources
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\obj\Debug\Presentacion.xml
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\bin\Debug\Presentacion.xml
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\bin\Debug\Negocio.dll
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\bin\Debug\Persistencia.dll
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\bin\Debug\Negocio.xml
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\bin\Debug\Persistencia.pdb
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\bin\Debug\Persistencia.xml
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\obj\Debug\Presentacion.vbprojResolveAssemblyReference.cache
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\obj\Debug\Presentacion.frmsucursales.resources
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\obj\Debug\Presentacion.Resources.resources
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\obj\Debug\Presentacion.vbproj.GenerateResource.Cache
+C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\obj\Debug\Presentacion.frmclientes.resources
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.xml
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\bin\Debug\Presentacion.xml
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\bin\Debug\Negocio.dll
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\bin\Debug\Persistencia.dll
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\bin\Debug\Negocio.xml
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\bin\Debug\Persistencia.pdb
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\bin\Debug\Persistencia.xml
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.vbprojResolveAssemblyReference.cache
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.frmclientes.resources
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.frmsucursales.resources
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.Resources.resources
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.vbproj.GenerateResource.Cache
