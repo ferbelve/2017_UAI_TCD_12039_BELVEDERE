@@ -70,6 +70,37 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Familia.vb" />
+    <Compile Include="formularios\admin\FormularioFamilia.Designer.vb">
+      <DependentUpon>FormularioFamilia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\admin\FormularioFamilia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\admin\FormularioPatente.Designer.vb">
+      <DependentUpon>FormularioPatente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\admin\FormularioPatente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\dialogos\FormularioDialogoPatentes.Designer.vb">
+      <DependentUpon>FormularioDialogoPatentes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\dialogos\FormularioDialogoPatentes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormularioPrincipal.Designer.vb">
+      <DependentUpon>FormularioPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormularioPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\usuarios\FormularioUsuarios.Designer.vb">
+      <DependentUpon>FormularioUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\usuarios\FormularioUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmclientes.Designer.vb">
       <DependentUpon>frmclientes.vb</DependentUpon>
     </Compile>
@@ -83,6 +114,8 @@
       <DependentUpon>frmsucursales.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="GrupoPatentes.vb" />
+    <Compile Include="Modelo.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -98,8 +131,26 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Patente.vb" />
+    <Compile Include="PatenteAbstracta.vb" />
+    <Compile Include="Usuario.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="formularios\admin\FormularioFamilia.resx">
+      <DependentUpon>FormularioFamilia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\admin\FormularioPatente.resx">
+      <DependentUpon>FormularioPatente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\dialogos\FormularioDialogoPatentes.resx">
+      <DependentUpon>FormularioDialogoPatentes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormularioPrincipal.resx">
+      <DependentUpon>FormularioPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\usuarios\FormularioUsuarios.resx">
+      <DependentUpon>FormularioUsuarios.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmclientes.resx">
       <DependentUpon>frmclientes.vb</DependentUpon>
     </EmbeddedResource>
@@ -114,6 +165,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -134,6 +186,9 @@
       <Project>{5116dc0f-6fe9-40be-86ab-f5cc78105f08}</Project>
       <Name>Persistencia</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="formularios\productos\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

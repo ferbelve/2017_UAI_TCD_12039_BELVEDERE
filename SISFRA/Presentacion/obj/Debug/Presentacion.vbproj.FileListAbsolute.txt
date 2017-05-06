@@ -34,10 +34,15 @@ C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\obj\Debug\Presentacion.frms
 C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\obj\Debug\Presentacion.Resources.resources
 C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\obj\Debug\Presentacion.vbproj.GenerateResource.Cache
 C:\Users\Fer\Desktop\TDC\SISFRA - copia\Presentacion\obj\Debug\Presentacion.frmclientes.resources
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.vbprojResolveAssemblyReference.cache
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.FormularioPatentes.resources
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.FormularioDialogoPatentes.resources
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.FormularioPrincipal.resources
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.frmclientes.resources
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.frmsucursales.resources
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.Resources.resources
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.vbproj.GenerateResource.Cache
 C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\bin\Debug\Presentacion.exe.config
-C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.exe
-C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.xml
-C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.pdb
 C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\bin\Debug\Presentacion.exe
 C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\bin\Debug\Presentacion.pdb
 C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\bin\Debug\Presentacion.xml
@@ -47,8 +52,33 @@ C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\bin\Debug\Negocio.pdb
 C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\bin\Debug\Negocio.xml
 C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\bin\Debug\Persistencia.pdb
 C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\bin\Debug\Persistencia.xml
-C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.vbprojResolveAssemblyReference.cache
-C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.frmclientes.resources
-C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.frmsucursales.resources
-C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.Resources.resources
-C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.vbproj.GenerateResource.Cache
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.xml
+C:\Users\Fer\Desktop\TDC\SISFRA1\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\bin\Debug\Presentacion.xml
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\bin\Debug\Negocio.dll
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\bin\Debug\Persistencia.dll
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\bin\Debug\Negocio.xml
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\bin\Debug\Persistencia.pdb
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\bin\Debug\Persistencia.xml
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\obj\Debug\Presentacion.vbprojResolveAssemblyReference.cache
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\obj\Debug\Presentacion.FormularioFamilia.resources
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\obj\Debug\Presentacion.FormularioPatentes.resources
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\obj\Debug\Presentacion.FormularioDialogoPatentes.resources
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\obj\Debug\Presentacion.FormularioPrincipal.resources
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\obj\Debug\Presentacion.frmclientes.resources
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\obj\Debug\Presentacion.frmsucursales.resources
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\obj\Debug\Presentacion.Resources.resources
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\obj\Debug\Presentacion.vbproj.GenerateResource.Cache
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\obj\Debug\Presentacion.xml
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Presentacion\obj\Debug\Presentacion.FormularioUsuarios.resources
+C:\Users\Fer\Downloads\05-05-17\05-05-17\SISFRA1\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Fer\Downloads\05-05-17\05-05-17\SISFRA1\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Fer\Downloads\05-05-17\05-05-17\SISFRA1\Presentacion\obj\Debug\Presentacion.xml
+C:\Users\Fer\Downloads\05-05-17\05-05-17\SISFRA1\Presentacion\obj\Debug\Presentacion.pdb

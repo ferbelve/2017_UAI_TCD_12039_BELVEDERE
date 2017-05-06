@@ -59,4 +59,8 @@ Public Class frmclientes
     Private Sub ocultar_columnas()
         datalistado.Columns(1).Visible = False
     End Sub
+
+    Private Sub grbmatenimiento_Enter(sender As Object, e As EventArgs)
+
+    End Sub
 End Class

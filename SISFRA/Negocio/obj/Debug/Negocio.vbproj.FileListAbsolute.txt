@@ -30,3 +30,15 @@ C:\Users\Fer\Desktop\TDC\SISFRA1\Negocio\obj\Debug\Negocio.vbproj.GenerateResour
 C:\Users\Fer\Desktop\TDC\SISFRA1\Negocio\obj\Debug\Negocio.dll
 C:\Users\Fer\Desktop\TDC\SISFRA1\Negocio\obj\Debug\Negocio.xml
 C:\Users\Fer\Desktop\TDC\SISFRA1\Negocio\obj\Debug\Negocio.pdb
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Negocio\bin\Debug\Negocio.dll
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Negocio\bin\Debug\Negocio.pdb
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Negocio\bin\Debug\Negocio.xml
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Negocio\bin\Debug\Persistencia.dll
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Negocio\bin\Debug\Persistencia.pdb
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Negocio\bin\Debug\Persistencia.xml
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Negocio\obj\Debug\Negocio.vbprojResolveAssemblyReference.cache
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Negocio\obj\Debug\Negocio.Resources.resources
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Negocio\obj\Debug\Negocio.vbproj.GenerateResource.Cache
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Negocio\obj\Debug\Negocio.dll
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Negocio\obj\Debug\Negocio.xml
+C:\Users\scosentino\Downloads\04-05-17\SISFRA1\Negocio\obj\Debug\Negocio.pdb

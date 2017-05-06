@@ -23,6 +23,14 @@ Partial Class frmclientes
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmclientes))
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.grblistadoclientes = New System.Windows.Forms.GroupBox()
+        Me.btneliminar = New System.Windows.Forms.Button()
+        Me.Lnlinexitente = New System.Windows.Forms.LinkLabel()
+        Me.cbocampo = New System.Windows.Forms.ComboBox()
+        Me.txtbuscar = New System.Windows.Forms.TextBox()
+        Me.datalistado = New System.Windows.Forms.DataGridView()
+        Me.Eliminar = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.grbmatenimiento = New System.Windows.Forms.GroupBox()
         Me.lbldni = New System.Windows.Forms.Label()
         Me.txtdni = New System.Windows.Forms.TextBox()
@@ -39,20 +47,108 @@ Partial Class frmclientes
         Me.lblapellido = New System.Windows.Forms.Label()
         Me.lblnombre = New System.Windows.Forms.Label()
         Me.txtnombre = New System.Windows.Forms.TextBox()
-        Me.grblistadoclientes = New System.Windows.Forms.GroupBox()
-        Me.btneliminar = New System.Windows.Forms.Button()
-        Me.Lnlinexitente = New System.Windows.Forms.LinkLabel()
-        Me.cbocampo = New System.Windows.Forms.ComboBox()
-        Me.txtbuscar = New System.Windows.Forms.TextBox()
-        Me.datalistado = New System.Windows.Forms.DataGridView()
-        Me.Eliminar = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.grbmatenimiento.SuspendLayout()
+        Me.Panel1.SuspendLayout()
         Me.grblistadoclientes.SuspendLayout()
         CType(Me.datalistado, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.grbmatenimiento.SuspendLayout()
         Me.SuspendLayout()
+        '
+        'Panel1
+        '
+        Me.Panel1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
+        Me.Panel1.Controls.Add(Me.grblistadoclientes)
+        Me.Panel1.Controls.Add(Me.grbmatenimiento)
+        Me.Panel1.Location = New System.Drawing.Point(12, 2)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(842, 483)
+        Me.Panel1.TabIndex = 0
+        '
+        'grblistadoclientes
+        '
+        Me.grblistadoclientes.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.grblistadoclientes.BackColor = System.Drawing.Color.Transparent
+        Me.grblistadoclientes.Controls.Add(Me.btneliminar)
+        Me.grblistadoclientes.Controls.Add(Me.Lnlinexitente)
+        Me.grblistadoclientes.Controls.Add(Me.cbocampo)
+        Me.grblistadoclientes.Controls.Add(Me.txtbuscar)
+        Me.grblistadoclientes.Controls.Add(Me.datalistado)
+        Me.grblistadoclientes.Font = New System.Drawing.Font("Comic Sans MS", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.grblistadoclientes.ForeColor = System.Drawing.Color.PaleTurquoise
+        Me.grblistadoclientes.Location = New System.Drawing.Point(387, 0)
+        Me.grblistadoclientes.Name = "grblistadoclientes"
+        Me.grblistadoclientes.Size = New System.Drawing.Size(455, 450)
+        Me.grblistadoclientes.TabIndex = 5
+        Me.grblistadoclientes.TabStop = False
+        Me.grblistadoclientes.Text = "Listado de Clientes"
+        '
+        'btneliminar
+        '
+        Me.btneliminar.BackColor = System.Drawing.Color.DodgerBlue
+        Me.btneliminar.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btneliminar.ForeColor = System.Drawing.Color.Aquamarine
+        Me.btneliminar.Location = New System.Drawing.Point(27, 401)
+        Me.btneliminar.Name = "btneliminar"
+        Me.btneliminar.Size = New System.Drawing.Size(109, 34)
+        Me.btneliminar.TabIndex = 17
+        Me.btneliminar.Text = "Eliminar"
+        Me.btneliminar.UseVisualStyleBackColor = False
+        '
+        'Lnlinexitente
+        '
+        Me.Lnlinexitente.AutoSize = True
+        Me.Lnlinexitente.Location = New System.Drawing.Point(156, 220)
+        Me.Lnlinexitente.Name = "Lnlinexitente"
+        Me.Lnlinexitente.Size = New System.Drawing.Size(125, 19)
+        Me.Lnlinexitente.TabIndex = 4
+        Me.Lnlinexitente.TabStop = True
+        Me.Lnlinexitente.Text = "Datos inexistentes"
+        '
+        'cbocampo
+        '
+        Me.cbocampo.FormattingEnabled = True
+        Me.cbocampo.Items.AddRange(New Object() {"nombre", "apellido", "dni", "telefono"})
+        Me.cbocampo.Location = New System.Drawing.Point(17, 34)
+        Me.cbocampo.Name = "cbocampo"
+        Me.cbocampo.Size = New System.Drawing.Size(138, 27)
+        Me.cbocampo.TabIndex = 3
+        Me.cbocampo.Text = "DNI"
+        '
+        'txtbuscar
+        '
+        Me.txtbuscar.Font = New System.Drawing.Font("Consolas", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtbuscar.Location = New System.Drawing.Point(171, 34)
+        Me.txtbuscar.Multiline = True
+        Me.txtbuscar.Name = "txtbuscar"
+        Me.txtbuscar.Size = New System.Drawing.Size(259, 27)
+        Me.txtbuscar.TabIndex = 2
+        '
+        'datalistado
+        '
+        Me.datalistado.AllowUserToAddRows = False
+        Me.datalistado.AllowUserToDeleteRows = False
+        Me.datalistado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.datalistado.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Eliminar})
+        Me.datalistado.Location = New System.Drawing.Point(17, 79)
+        Me.datalistado.Name = "datalistado"
+        Me.datalistado.ReadOnly = True
+        Me.datalistado.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.datalistado.Size = New System.Drawing.Size(413, 298)
+        Me.datalistado.TabIndex = 0
+        '
+        'Eliminar
+        '
+        Me.Eliminar.HeaderText = "Eliminar"
+        Me.Eliminar.Name = "Eliminar"
+        Me.Eliminar.ReadOnly = True
         '
         'grbmatenimiento
         '
+        Me.grbmatenimiento.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.grbmatenimiento.BackColor = System.Drawing.Color.Transparent
         Me.grbmatenimiento.Controls.Add(Me.lbldni)
         Me.grbmatenimiento.Controls.Add(Me.txtdni)
@@ -71,10 +167,10 @@ Partial Class frmclientes
         Me.grbmatenimiento.Controls.Add(Me.txtnombre)
         Me.grbmatenimiento.Font = New System.Drawing.Font("Comic Sans MS", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.grbmatenimiento.ForeColor = System.Drawing.Color.PaleTurquoise
-        Me.grbmatenimiento.Location = New System.Drawing.Point(12, 61)
+        Me.grbmatenimiento.Location = New System.Drawing.Point(-1, 49)
         Me.grbmatenimiento.Name = "grbmatenimiento"
-        Me.grbmatenimiento.Size = New System.Drawing.Size(366, 344)
-        Me.grbmatenimiento.TabIndex = 0
+        Me.grbmatenimiento.Size = New System.Drawing.Size(377, 344)
+        Me.grbmatenimiento.TabIndex = 4
         Me.grbmatenimiento.TabStop = False
         Me.grbmatenimiento.Text = "Mantenimiento"
         '
@@ -234,109 +330,36 @@ Partial Class frmclientes
         Me.txtnombre.Size = New System.Drawing.Size(235, 20)
         Me.txtnombre.TabIndex = 0
         '
-        'grblistadoclientes
-        '
-        Me.grblistadoclientes.BackColor = System.Drawing.Color.Transparent
-        Me.grblistadoclientes.Controls.Add(Me.btneliminar)
-        Me.grblistadoclientes.Controls.Add(Me.Lnlinexitente)
-        Me.grblistadoclientes.Controls.Add(Me.cbocampo)
-        Me.grblistadoclientes.Controls.Add(Me.txtbuscar)
-        Me.grblistadoclientes.Controls.Add(Me.datalistado)
-        Me.grblistadoclientes.Font = New System.Drawing.Font("Comic Sans MS", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.grblistadoclientes.ForeColor = System.Drawing.Color.PaleTurquoise
-        Me.grblistadoclientes.Location = New System.Drawing.Point(400, 12)
-        Me.grblistadoclientes.Name = "grblistadoclientes"
-        Me.grblistadoclientes.Size = New System.Drawing.Size(444, 450)
-        Me.grblistadoclientes.TabIndex = 1
-        Me.grblistadoclientes.TabStop = False
-        Me.grblistadoclientes.Text = "Listado de Clientes"
-        '
-        'btneliminar
-        '
-        Me.btneliminar.BackColor = System.Drawing.Color.DodgerBlue
-        Me.btneliminar.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btneliminar.ForeColor = System.Drawing.Color.Aquamarine
-        Me.btneliminar.Location = New System.Drawing.Point(27, 401)
-        Me.btneliminar.Name = "btneliminar"
-        Me.btneliminar.Size = New System.Drawing.Size(109, 34)
-        Me.btneliminar.TabIndex = 17
-        Me.btneliminar.Text = "Eliminar"
-        Me.btneliminar.UseVisualStyleBackColor = False
-        '
-        'Lnlinexitente
-        '
-        Me.Lnlinexitente.AutoSize = True
-        Me.Lnlinexitente.Location = New System.Drawing.Point(156, 220)
-        Me.Lnlinexitente.Name = "Lnlinexitente"
-        Me.Lnlinexitente.Size = New System.Drawing.Size(125, 19)
-        Me.Lnlinexitente.TabIndex = 4
-        Me.Lnlinexitente.TabStop = True
-        Me.Lnlinexitente.Text = "Datos inexistentes"
-        '
-        'cbocampo
-        '
-        Me.cbocampo.FormattingEnabled = True
-        Me.cbocampo.Items.AddRange(New Object() {"nombre", "apellido", "dni", "telefono"})
-        Me.cbocampo.Location = New System.Drawing.Point(17, 34)
-        Me.cbocampo.Name = "cbocampo"
-        Me.cbocampo.Size = New System.Drawing.Size(138, 27)
-        Me.cbocampo.TabIndex = 3
-        Me.cbocampo.Text = "DNI"
-        '
-        'txtbuscar
-        '
-        Me.txtbuscar.Font = New System.Drawing.Font("Consolas", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtbuscar.Location = New System.Drawing.Point(171, 34)
-        Me.txtbuscar.Multiline = True
-        Me.txtbuscar.Name = "txtbuscar"
-        Me.txtbuscar.Size = New System.Drawing.Size(259, 27)
-        Me.txtbuscar.TabIndex = 2
-        '
-        'datalistado
-        '
-        Me.datalistado.AllowUserToAddRows = False
-        Me.datalistado.AllowUserToDeleteRows = False
-        Me.datalistado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.datalistado.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Eliminar})
-        Me.datalistado.Location = New System.Drawing.Point(17, 79)
-        Me.datalistado.Name = "datalistado"
-        Me.datalistado.ReadOnly = True
-        Me.datalistado.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.datalistado.Size = New System.Drawing.Size(413, 298)
-        Me.datalistado.TabIndex = 0
-        '
-        'Eliminar
-        '
-        Me.Eliminar.HeaderText = "Eliminar"
-        Me.Eliminar.Name = "Eliminar"
-        Me.Eliminar.ReadOnly = True
-        '
         'frmclientes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(866, 488)
-        Me.Controls.Add(Me.grblistadoclientes)
-        Me.Controls.Add(Me.grbmatenimiento)
+        Me.Controls.Add(Me.Panel1)
         Me.Name = "frmclientes"
         Me.Text = "Listado de Clientes"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
-        Me.grbmatenimiento.ResumeLayout(False)
-        Me.grbmatenimiento.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
         Me.grblistadoclientes.ResumeLayout(False)
         Me.grblistadoclientes.PerformLayout()
         CType(Me.datalistado, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.grbmatenimiento.ResumeLayout(False)
+        Me.grbmatenimiento.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents grblistadoclientes As System.Windows.Forms.GroupBox
+    Friend WithEvents btneliminar As System.Windows.Forms.Button
+    Friend WithEvents Lnlinexitente As System.Windows.Forms.LinkLabel
+    Friend WithEvents cbocampo As System.Windows.Forms.ComboBox
+    Friend WithEvents txtbuscar As System.Windows.Forms.TextBox
+    Friend WithEvents datalistado As System.Windows.Forms.DataGridView
+    Friend WithEvents Eliminar As System.Windows.Forms.DataGridViewCheckBoxColumn
     Friend WithEvents grbmatenimiento As System.Windows.Forms.GroupBox
-    Friend WithEvents lblnombre As System.Windows.Forms.Label
-    Friend WithEvents txtnombre As System.Windows.Forms.TextBox
-    Friend WithEvents lbldireccion As System.Windows.Forms.Label
-    Friend WithEvents lbltelefono As System.Windows.Forms.Label
-    Friend WithEvents lblmail As System.Windows.Forms.Label
-    Friend WithEvents lblapellido As System.Windows.Forms.Label
+    Friend WithEvents lbldni As System.Windows.Forms.Label
+    Friend WithEvents txtdni As System.Windows.Forms.TextBox
     Friend WithEvents btncancelar As System.Windows.Forms.Button
     Friend WithEvents btneditar As System.Windows.Forms.Button
     Friend WithEvents btnnuevo As System.Windows.Forms.Button
@@ -344,13 +367,10 @@ Partial Class frmclientes
     Friend WithEvents txttelefono As System.Windows.Forms.TextBox
     Friend WithEvents txtmail As System.Windows.Forms.TextBox
     Friend WithEvents txtapellido As System.Windows.Forms.TextBox
-    Friend WithEvents lbldni As System.Windows.Forms.Label
-    Friend WithEvents txtdni As System.Windows.Forms.TextBox
-    Friend WithEvents grblistadoclientes As System.Windows.Forms.GroupBox
-    Friend WithEvents datalistado As System.Windows.Forms.DataGridView
-    Friend WithEvents btneliminar As System.Windows.Forms.Button
-    Friend WithEvents Lnlinexitente As System.Windows.Forms.LinkLabel
-    Friend WithEvents cbocampo As System.Windows.Forms.ComboBox
-    Friend WithEvents txtbuscar As System.Windows.Forms.TextBox
-    Friend WithEvents Eliminar As System.Windows.Forms.DataGridViewCheckBoxColumn
+    Friend WithEvents lbldireccion As System.Windows.Forms.Label
+    Friend WithEvents lbltelefono As System.Windows.Forms.Label
+    Friend WithEvents lblmail As System.Windows.Forms.Label
+    Friend WithEvents lblapellido As System.Windows.Forms.Label
+    Friend WithEvents lblnombre As System.Windows.Forms.Label
+    Friend WithEvents txtnombre As System.Windows.Forms.TextBox
 End Class
