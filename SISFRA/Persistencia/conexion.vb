@@ -1,8 +1,8 @@
 ﻿Imports System.Data.SqlClient
 Public Class conexion
-    Protected cnn As New SqlConnection
+    Protected Shared cnn As New SqlConnection
 
-    Protected Function conectado()
+    Protected Shared Function conectado()
         Try
             cnn = New SqlConnection(My.Settings.Conexion)
             cnn.Open()
@@ -12,7 +12,7 @@ Public Class conexion
             Return False
         End Try
     End Function
-    Protected Function desconectado()
+    Protected Shared Function desconectado()
         Try
             If cnn.State = ConnectionState.Open Then
                 cnn.Close()

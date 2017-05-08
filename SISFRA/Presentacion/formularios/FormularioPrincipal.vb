@@ -10,6 +10,8 @@
     End Sub
 
     Private Sub FormularioPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Pnllogin.Left = (Me.Width - Pnllogin.Width) / 2
+        Pnllogin.Top = (Me.Height - Pnllogin.Height) / 2
 
     End Sub
 
@@ -27,5 +29,15 @@
     Private Sub UsuarioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UsuarioToolStripMenuItem.Click
         Dim frm As New FormularioUsuarios
         frm.ShowDialog()
+    End Sub
+
+
+    Private Sub ptbingresar_Click(sender As Object, e As EventArgs) Handles ptbingresar.Click
+        ptbingresar.Size = New Size(40, 32)
+    End Sub
+
+   
+    Private Sub ptbsalir_Click(sender As Object, e As EventArgs) Handles ptbsalir.Click
+        ptbsalir.Size = New Size(843, 468)
     End Sub
 End Class

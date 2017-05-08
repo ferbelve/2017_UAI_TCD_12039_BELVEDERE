@@ -1,4 +1,5 @@
 ﻿Imports System.Reflection
+Imports Negocio
 
 Public Class FormularioDialogoPatentes
 
@@ -31,6 +32,23 @@ Public Class FormularioDialogoPatentes
     End Sub
 
     Private Sub cmbFormularios_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbFormularios.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+
+        Dim permiso As New npermisos
+        permiso.nombre = cmbFormularios.SelectedItem.ToString
+
+
+        permiso.insertar()
+
+
+
+        'npermisos.
+
+
 
     End Sub
 End Class

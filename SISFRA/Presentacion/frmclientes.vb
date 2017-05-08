@@ -1,5 +1,4 @@
 ﻿Imports Negocio
-Imports Persistencia
 
 Public Class frmclientes
     Private dt As New DataTable
@@ -9,8 +8,8 @@ Public Class frmclientes
 
     Private Sub mostrar()
         Try
-            Dim func As New pclientes
-            dt = func.mostrar
+
+            dt = nclientes.mostrar
             datalistado.Columns.Item("Eliminar").Visible = False
 
             If dt.Rows.Count <> 0 Then
@@ -60,7 +59,32 @@ Public Class frmclientes
         datalistado.Columns(1).Visible = False
     End Sub
 
-    Private Sub grbmatenimiento_Enter(sender As Object, e As EventArgs)
+    Private Sub btnnuevo_Click(sender As Object, e As EventArgs) Handles btnnuevo.Click
 
+        Dim cliente As New nclientes
+
+        If txtnombre.Text <> "" And txtapellido.Text <> "" And txtdni.Text <> "" And txtmail.Text <> "" And txttelefono.Text <> "" And txtdireccion.Text <> "" Then
+            cliente.nombre = txtnombre.Text
+            cliente.apellido = txtapellido.Text
+            cliente.dni = txtdni.Text
+            cliente.mail = txtmail.Text
+            cliente.telefono = txttelefono.Text
+            cliente.direccion = txtdireccion.Text
+            cliente.insertar()
+            limpiar()
+            mostrar()
+        Else
+            MessageBox.Show("Por favor complete todos los datos para completar la operacion")
+
+        End If
     End Sub
+    Public Sub limpiar()
+        txtnombre.Text = ""
+        txtapellido.Text = ""
+        txtdni.Text = ""
+        txtmail.Text = ""
+        txttelefono.Text = ""
+        txtdireccion.Text = ""
+    End Sub
+
 End Class

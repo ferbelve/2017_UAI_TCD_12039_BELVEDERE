@@ -54,7 +54,7 @@ Partial Class FormularioDialogoPatentes
         Me.cmbFormularios.Size = New System.Drawing.Size(248, 21)
         Me.cmbFormularios.TabIndex = 3
         '
-        'FormularioDialogoPatente
+        'FormularioDialogoPatentes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -62,7 +62,7 @@ Partial Class FormularioDialogoPatentes
         Me.Controls.Add(Me.txtNombre)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.cmbFormularios)
-        Me.Name = "FormularioDialogoPatente"
+        Me.Name = "FormularioDialogoPatentes"
         Me.Text = "FormularioDialogoPatente"
         Me.ResumeLayout(False)
         Me.PerformLayout()

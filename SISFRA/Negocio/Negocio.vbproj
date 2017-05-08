@@ -62,6 +62,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="npermisos.vb" />
     <Compile Include="nclientes.vb" />
     <Compile Include="nsucursales.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
