@@ -33,11 +33,15 @@
 
 
     Private Sub ptbingresar_Click(sender As Object, e As EventArgs) Handles ptbingresar.Click
-        ptbingresar.Size = New Size(40, 32)
+        ptbingresar.Size = New Size(131, 114)
     End Sub
 
    
     Private Sub ptbsalir_Click(sender As Object, e As EventArgs) Handles ptbsalir.Click
-        ptbsalir.Size = New Size(843, 468)
+        ptbsalir.Size = New Size(44, 36)
+    End Sub
+
+    Private Sub Pnllogin_Paint(sender As Object, e As PaintEventArgs) Handles Pnllogin.Paint
+
     End Sub
 End Class

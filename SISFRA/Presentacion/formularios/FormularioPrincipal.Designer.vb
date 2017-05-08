@@ -116,7 +116,7 @@ Partial Class FormularioPrincipal
         Me.ptbsalir.BackColor = System.Drawing.Color.Transparent
         Me.ptbsalir.BackgroundImage = CType(resources.GetObject("ptbsalir.BackgroundImage"), System.Drawing.Image)
         Me.ptbsalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ptbsalir.Location = New System.Drawing.Point(463, 13)
+        Me.ptbsalir.Location = New System.Drawing.Point(463, 12)
         Me.ptbsalir.Name = "ptbsalir"
         Me.ptbsalir.Size = New System.Drawing.Size(37, 29)
         Me.ptbsalir.TabIndex = 1

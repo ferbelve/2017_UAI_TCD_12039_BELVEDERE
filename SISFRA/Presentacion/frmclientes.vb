@@ -3,6 +3,9 @@
 Public Class frmclientes
     Private dt As New DataTable
     Private Sub frmclientes_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        PnlListadoClientes.Left = (Me.Width - PnlListadoClientes.Width) / 2
+        PnlListadoClientes.Top = (Me.Height - PnlListadoClientes.Height) / 2
+
         mostrar()
     End Sub
 

@@ -78,6 +78,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="pfamilias.vb" />
     <Compile Include="ppermisos.vb" />
     <Compile Include="pclientes.vb" />
     <Compile Include="psucursales.vb" />

@@ -1,12 +1,11 @@
 ﻿Imports System.Data.SqlClient
-
-Public Class ppermisos
+Public Class pfamilias
     Inherits conexion
     Shared cmd As New SqlCommand
-    Public Function mostrar() As DataTable
+    Public Shared Function mostrar() As DataTable
         Try
             conectado()
-            cmd = New SqlCommand("select * from permisos")
+            cmd = New SqlCommand("select * from familias")
             cmd.Connection = cnn
 
             If cmd.ExecuteNonQuery Then
@@ -25,12 +24,10 @@ Public Class ppermisos
         End Try
     End Function
 
-   
-
     Public Shared Function insertar(nombre As String) As Boolean
         Try
             conectado()
-            cmd = New SqlCommand("Insert into permisos (Nombre) VALUES ('" & nombre & "')")
+            cmd = New SqlCommand("Insert into familias (Nombre) VALUES ('" & nombre & "')")
             cmd.Connection = cnn
 
             If cmd.ExecuteNonQuery Then
@@ -46,4 +43,5 @@ Public Class ppermisos
             desconectado()
         End Try
     End Function
+
 End Class

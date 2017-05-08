@@ -23,7 +23,7 @@ Partial Class frmclientes
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmclientes))
-        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.PnlListadoClientes = New System.Windows.Forms.Panel()
         Me.grblistadoclientes = New System.Windows.Forms.GroupBox()
         Me.btneliminar = New System.Windows.Forms.Button()
         Me.Lnlinexitente = New System.Windows.Forms.LinkLabel()
@@ -47,24 +47,21 @@ Partial Class frmclientes
         Me.lblapellido = New System.Windows.Forms.Label()
         Me.lblnombre = New System.Windows.Forms.Label()
         Me.txtnombre = New System.Windows.Forms.TextBox()
-        Me.Panel1.SuspendLayout()
+        Me.PnlListadoClientes.SuspendLayout()
         Me.grblistadoclientes.SuspendLayout()
         CType(Me.datalistado, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.grbmatenimiento.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Panel1
+        'PnlListadoClientes
         '
-        Me.Panel1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
-        Me.Panel1.Controls.Add(Me.grblistadoclientes)
-        Me.Panel1.Controls.Add(Me.grbmatenimiento)
-        Me.Panel1.Location = New System.Drawing.Point(12, 2)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(842, 483)
-        Me.Panel1.TabIndex = 0
+        Me.PnlListadoClientes.BackgroundImage = CType(resources.GetObject("PnlListadoClientes.BackgroundImage"), System.Drawing.Image)
+        Me.PnlListadoClientes.Controls.Add(Me.grblistadoclientes)
+        Me.PnlListadoClientes.Controls.Add(Me.grbmatenimiento)
+        Me.PnlListadoClientes.Location = New System.Drawing.Point(12, 0)
+        Me.PnlListadoClientes.Name = "PnlListadoClientes"
+        Me.PnlListadoClientes.Size = New System.Drawing.Size(842, 485)
+        Me.PnlListadoClientes.TabIndex = 0
         '
         'grblistadoclientes
         '
@@ -336,11 +333,11 @@ Partial Class frmclientes
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(866, 488)
-        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.PnlListadoClientes)
         Me.Name = "frmclientes"
         Me.Text = "Listado de Clientes"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
-        Me.Panel1.ResumeLayout(False)
+        Me.PnlListadoClientes.ResumeLayout(False)
         Me.grblistadoclientes.ResumeLayout(False)
         Me.grblistadoclientes.PerformLayout()
         CType(Me.datalistado, System.ComponentModel.ISupportInitialize).EndInit()
@@ -349,7 +346,7 @@ Partial Class frmclientes
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents PnlListadoClientes As System.Windows.Forms.Panel
     Friend WithEvents grblistadoclientes As System.Windows.Forms.GroupBox
     Friend WithEvents btneliminar As System.Windows.Forms.Button
     Friend WithEvents Lnlinexitente As System.Windows.Forms.LinkLabel

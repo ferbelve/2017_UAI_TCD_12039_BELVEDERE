@@ -43,3 +43,12 @@ C:\Users\Fer\Downloads\05-05-17\05-05-17\SISFRA1\Persistencia\obj\Debug\Persiste
 C:\Users\Fer\Downloads\05-05-17\05-05-17\SISFRA1\Persistencia\obj\Debug\Persistencia.dll
 C:\Users\Fer\Downloads\05-05-17\05-05-17\SISFRA1\Persistencia\obj\Debug\Persistencia.xml
 C:\Users\Fer\Downloads\05-05-17\05-05-17\SISFRA1\Persistencia\obj\Debug\Persistencia.pdb
+C:\Users\Fer\Desktop\TDC\07-05-17\07-05-17\SISFRA1\Persistencia\bin\Debug\Persistencia.dll.config
+C:\Users\Fer\Desktop\TDC\07-05-17\07-05-17\SISFRA1\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\Fer\Desktop\TDC\07-05-17\07-05-17\SISFRA1\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\Fer\Desktop\TDC\07-05-17\07-05-17\SISFRA1\Persistencia\bin\Debug\Persistencia.xml
+C:\Users\Fer\Desktop\TDC\07-05-17\07-05-17\SISFRA1\Persistencia\obj\Debug\Persistencia.Resources.resources
+C:\Users\Fer\Desktop\TDC\07-05-17\07-05-17\SISFRA1\Persistencia\obj\Debug\Persistencia.vbproj.GenerateResource.Cache
+C:\Users\Fer\Desktop\TDC\07-05-17\07-05-17\SISFRA1\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\Fer\Desktop\TDC\07-05-17\07-05-17\SISFRA1\Persistencia\obj\Debug\Persistencia.xml
+C:\Users\Fer\Desktop\TDC\07-05-17\07-05-17\SISFRA1\Persistencia\obj\Debug\Persistencia.pdb
